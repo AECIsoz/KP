@@ -1,4 +1,4 @@
-/* general styles */
+/* general styles, headings, tags */
 
 * {
 	margin: 0;
@@ -33,17 +33,45 @@ p {
 	font-style: normal;
 }
 
+button {
+	width: 100px;
+	padding: 1rem;
+	margin: 1rem;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
 /* alignment classes */
 
 .flex {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
 }
 
+/*.center-page {
+	height: 90vh;
+}*/
+.bottom-page {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.column {
+	flex-direction: column;
+}
 .adjusted-down {
 	padding-top: 5rem;
+}
+
+.hide {
+	display: none;
 }
 
 /* color classes */
@@ -58,6 +86,35 @@ p {
 	color: red;
 }
 
+.btn-red {
+	background-color: red;
+}
+
+.btn-orange {
+	background-color: orange;
+}
+
+.btn-green {
+	background-color: green;
+}
+
+/* behaviours */
 #smash:hover {
 	cursor: pointer;
+}
+
+/* images */
+
+#fem-symbol {
+	height: 8rem;
+	padding: 10px;
+}
+
+#message-one,
+#message-two,
+#message-three {
+	background-image: url('images/smudge.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
