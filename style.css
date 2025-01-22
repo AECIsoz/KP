@@ -63,6 +63,7 @@ button {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+	background-color: white;
 }
 
 .column {
@@ -119,5 +120,8 @@ button {
 @media screen and (max-width: 600px) {
 	h1 {
 		font-size: 4rem;
+	}
+	.center-page {
+		margin-top: 0;
 	}
 }
