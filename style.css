@@ -41,6 +41,7 @@ button {
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px gray;
 	color: white;
+	background-color: black;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -51,11 +52,12 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
-/*.center-page {
-	height: 90vh;
-}*/
+.center-page {
+	margin-top: 200px;
+}
 .bottom-page {
 	position: fixed;
 	left: 0;
@@ -86,18 +88,6 @@ button {
 	color: red;
 }
 
-.btn-red {
-	background-color: red;
-}
-
-.btn-orange {
-	background-color: orange;
-}
-
-.btn-green {
-	background-color: green;
-}
-
 /* behaviours */
 #smash:hover {
 	cursor: pointer;
@@ -117,4 +107,17 @@ button {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+/* media queries */
+@media screen and (max-width: 1200px) {
+	h1 {
+		font-size: 6rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 4rem;
+	}
 }
