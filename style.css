@@ -16,11 +16,19 @@ h3 {
 	font-family: 'Jersey 15', serif;
 	font-weight: 400;
 	font-style: normal;
+	padding: 10px;
 }
 
 h1 {
 	font-size: 8rem;
-	padding: 10px;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+h3 {
+	font-size: 3rem;
 }
 
 h4,
@@ -46,6 +54,21 @@ button {
 	text-transform: uppercase;
 }
 
+label {
+	padding: 20px;
+}
+
+textarea {
+	font-size: 1.5rem;
+	padding: 10px;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+footer div {
+	cursor: pointer;
+}
+
 /* alignment classes */
 
 .flex {
@@ -55,26 +78,24 @@ button {
 	flex-wrap: wrap;
 }
 
-.center-page {
-	margin-top: 200px;
-}
-.bottom-page {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: white;
-}
-
 .column {
 	flex-direction: column;
 }
 .adjusted-down {
-	padding-top: 5rem;
+	padding-top: 2rem;
 }
 
 .hide {
 	display: none;
+}
+
+.form {
+	padding: 10px;
+}
+
+.narrow {
+	width: 60%;
+	margin: 0 auto;
 }
 
 /* color classes */
@@ -92,6 +113,11 @@ button {
 /* behaviours */
 #smash:hover {
 	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(251, 250, 253);
+	color: #222;
 }
 
 /* images */
