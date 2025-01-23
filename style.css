@@ -150,4 +150,13 @@ button:hover {
 	.center-page {
 		margin-top: 0;
 	}
+	.narrow {
+		width: 100%;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	footer {
+		margin-top: 10px;
+	}
 }
