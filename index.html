@@ -1,81 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Manrope:wght@200..800&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="style.css" />
-		<title>Krossa Patriarkatet!</title>
-	</head>
-	<body>
-		<!-- heading -->
-		<div class="flex">
-			<h1>KROSSA</h1>
-			<div class="contrast-box flex" id="smash">
-				<h1>PATRIARKATET</h1>
-				<img id="fem-symbol" src="images/femsymbol.png" alt="feminist symbol" />
-			</div>
-		</div>
-		<!-- input form -->
-		<div class="form">
-			<form action="" id="input-form" class="adjusted-down">
-				<label for="input-text"
-					><h4>Hur ska vi egentligen krossa patriarkatet?</h4>
-					<h4>Avsluta gärna meningen med ditt förslag.</h4>
-				</label>
-				<textarea id="input-text" rows="1" cols="20"></textarea>
-			</form>
-			<button id="finish-sentence" onclick="enterText()">Lägg till</button>
-		</div>
-		<div class="contrast-box narrow">
-			<h2 id="place-text">Patriarkatet bekämpas bäst med</h2>
-		</div>
-		<!-- message buttons -->
-		<footer class="flex column">
-			<div id="message-one" class="hide flex">
-				<div class="flex">
-					<h1>JAJAMENSAN</h1>
-					<img
-						id="fem-symbol"
-						src="images/femsymbol_red.png"
-						alt="feminist symbol"
-					/>
-				</div>
-			</div>
-			<div id="message-two" class="hide flex">
-				<div class="flex">
-					<h1>RÄTT SVAR</h1>
-					<img
-						id="fem-symbol"
-						src="images/femsymbol_red.png"
-						alt="feminist symbol"
-					/>
-				</div>
-			</div>
-			<div id="message-three" class="hide flex">
-				<div class="flex">
-					<h1>ABSOLUT</h1>
-					<img
-						id="fem-symbol"
-						src="images/femsymbol_red.png"
-						alt="feminist symbol"
-					/>
-				</div>
-			</div>
-			<div class="flex">
-				<p>Vad tycker du vi ska göra med patriarkatet?</p>
-				<div>
-					<button class="btn">Krossa</button>
-					<button class="btn">Krossa</button>
-					<button class="btn">Krossa</button>
-				</div>
-			</div>
-		</footer>
-		<script src="main.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Krossa Patriarkatet!</title>
+  </head>
+  <body>
+    <!-- heading -->
+    <div class="flex">
+      <h1>KROSSA</h1>
+      <div class="contrast-box flex" id="smash">
+        <h1>PATRIARKATET</h1>
+        <img id="fem-symbol" src="images/femsymbol.png" alt="feminist symbol" />
+      </div>
+    </div>
+    <div class="flex">
+      <div class="icon-box">
+        <img
+          src="./images/mansplaining_icon_no.png"
+          alt="an icon with a man figure in a cap saying blah blah to a woman with a phd with a red line through it"
+        />
+      </div>
+      <div class="icon-box">
+        <img
+          src="./images/mansplainingicon.png"
+          alt="an icon with a man figure in a cap saying blah blah to a woman with a phd"
+        />
+      </div>
+    </div>
+    <!-- input form -->
+    <div class="form">
+      <form action="" id="input-form" class="adjusted-down">
+        <label for="input-text"
+          ><h4>Hur ska vi egentligen krossa patriarkatet?</h4>
+          <h4>Avsluta gärna meningen med ditt förslag.</h4>
+        </label>
+        <textarea id="input-text" rows="1" cols="20"></textarea>
+      </form>
+      <button id="finish-sentence" onclick="enterText()">Lägg till</button>
+    </div>
+    <div class="contrast-box narrow">
+      <h2 id="place-text">Patriarkatet bekämpas bäst med</h2>
+    </div>
+    <!-- message buttons -->
+    <footer class="flex column">
+      <div id="message-one" class="hide flex">
+        <div class="flex">
+          <h1>JAJAMENSAN</h1>
+          <img
+            id="fem-symbol"
+            src="images/femsymbol_red.png"
+            alt="feminist symbol"
+          />
+        </div>
+      </div>
+      <div id="message-two" class="hide flex">
+        <div class="flex">
+          <h1>RÄTT SVAR</h1>
+          <img
+            id="fem-symbol"
+            src="images/femsymbol_red.png"
+            alt="feminist symbol"
+          />
+        </div>
+      </div>
+      <div id="message-three" class="hide flex">
+        <div class="flex">
+          <h1>ABSOLUT</h1>
+          <img
+            id="fem-symbol"
+            src="images/femsymbol_red.png"
+            alt="feminist symbol"
+          />
+        </div>
+      </div>
+      <div class="flex">
+        <p>Vad tycker du vi ska göra med patriarkatet?</p>
+        <div>
+          <button class="btn">Krossa</button>
+          <button class="btn">Krossa</button>
+          <button class="btn">Krossa</button>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>
